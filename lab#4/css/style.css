@@ -1,0 +1,64 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.area {
+    background-color: #eee;
+    height: 100vh;
+    position: relative;
+}
+
+.area .box {
+    height: 350px;
+    width: 280px;
+    text-align: center;
+    background-color: rgb(112, 7, 65);
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 8%;
+}
+
+.area .box .note {
+    color: #fff;
+    font-weight: bold;
+    font-size: larger;
+    user-select: none;
+}
+
+.area .box>p {
+    color: #fff;
+    font-weight: bold;
+    user-select: none;
+}
+
+.button {
+    position: fixed;
+    z-index: 10;
+    margin-top: 750px;
+    right: 50px;
+    height: 60px;
+    width: 100px;
+    text-align: center;
+    background-color: rgb(163, 197, 13);
+    border-radius: 10px;
+    cursor: pointer;
+    user-select: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-size: 25px;
+}
+
+textarea {
+    resize: none;
+    user-select: none;
+}
+
+input {
+    user-select: none;
+}
